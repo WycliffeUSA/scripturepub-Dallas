@@ -1,6 +1,9 @@
 # Env
 /.env
 
+# temp files
+*.swp
+
 # composer
 /vendor
 composer.phar
