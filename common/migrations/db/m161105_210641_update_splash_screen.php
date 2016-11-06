@@ -37,9 +37,7 @@ class m161105_210641_update_splash_screen extends Migration
 
     public function down()
     {
-        echo "m161105_210641_update_splash_screen cannot be reverted.\n";
-
-        return false;
+        return true;
     }
 
     /*

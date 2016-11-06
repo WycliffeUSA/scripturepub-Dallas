@@ -89,9 +89,9 @@ if (YII_ENV_DEV) {
             'crud' => [
                 'class'=>'yii\gii\generators\crud\Generator',
                 'templates'=>[
-                    'yii2-starter-kit' => Yii::getAlias('@backend/views/_gii/templates')
+                    'app-publishing-service' => Yii::getAlias('@backend/views/_gii/templates')
                 ],
-                'template' => 'yii2-starter-kit',
+                'template' => 'app-publishing-service',
                 'messageCategory' => 'backend'
             ]
         ]

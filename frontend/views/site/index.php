@@ -12,9 +12,9 @@ $this->title = Yii::$app->name;
     ]) ?>
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        <h1>SIL App Publishing Service</h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <p class="lead">Publish your App from Scripture App Builder into the Google Play Store.</p>
 
         <?php echo common\widgets\DbMenu::widget([
             'key'=>'frontend-index',
@@ -26,7 +26,7 @@ $this->title = Yii::$app->name;
     </div>
 
     <div class="body-content">
-
+<!--
         <div class="row">
             <div class="col-lg-4">
                 <h2>Heading</h2>
@@ -59,6 +59,7 @@ $this->title = Yii::$app->name;
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
             </div>
         </div>
+        -->
 
     </div>
 </div>
