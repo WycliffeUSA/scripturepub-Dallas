@@ -18,7 +18,7 @@ I was able to get this running on my Mac using [Docker for Mac](https://docs.doc
 
 I did have to run one additional command before running `composer install ...`
 ```
-composer global require "fxp/composer-asset-plugin:^1.2.2"' 
+composer global require "fxp/composer-asset-plugin:^1.2.2"
 ```
 
 When manually updating your hosts file, use `app-publishing-service.dev` instead of `yii2-starter-kit.dev`.

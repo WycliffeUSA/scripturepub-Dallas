@@ -24,11 +24,11 @@ composer global require "fxp/composer-asset-plugin"
 
 ### Get source code
 #### Download sources
-https://github.com/trntv/app-publishing-service/archive/master.zip
+https://github.com/WycliffeUSA/scripturepub-Dallas/archive/master.zip
 
 #### Or clone repository manually
 ```
-git clone https://github.com/trntv/app-publishing-service.git
+git clone https://github.com/WycliffeUSA/scripturepub-Dallas.git
 ```
 #### Install composer dependencies
 ```
@@ -39,7 +39,7 @@ composer install
 You can install this application template with `composer` using the following command:
 
 ```
-composer create-project --prefer-dist --stability=dev trntv/app-publishing-service
+composer create-project --prefer-dist --stability=dev WycliffeUSA/scripturepub-Dallas
 ```
 
 ## Manual installation
