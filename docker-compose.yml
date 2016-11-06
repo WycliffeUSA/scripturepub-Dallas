@@ -1,11 +1,13 @@
 data:
   image: busybox:latest
+  container_name: data
   volumes:
     - ./:/app
   entrypoint: tail -f /dev/null
 
 app:
   build: docker/php
+  container_name: app
   working_dir: /app
   volumes_from:
     - data
@@ -19,6 +21,7 @@ app:
 
 nginx:
   image: nginx:latest
+  container_name: nginx
   ports:
     - "80:80"
   volumes:
@@ -29,11 +32,13 @@ nginx:
 
 mailcatcher:
     image: schickling/mailcatcher:latest
+    container_name: mailcatcher
     ports:
       - "1080:1080"
 
 db:
   image: mysql:5.7
+  container_name: db
   volumes:
     - /var/lib/mysql
   ports:
